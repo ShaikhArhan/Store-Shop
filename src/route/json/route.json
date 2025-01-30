@@ -1,0 +1,4 @@
+{
+    "user": ["cart","wishlist"],
+    "admin":["cart","wishlist","uploadproduct","editproduct","deleteproduct"] 
+}

@@ -1,0 +1,340 @@
+/* Header.css */
+
+/* Overall header styling */
+header {
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+/* Top section with contact info and social media links */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.contact-info span {
+  margin-right: 15px;
+}
+
+.social-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Main navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .search-area {
+  display: flex;
+  align-items: center;
+} */
+
+/* .search-area input {
+  padding: 5px;
+  margin-right: 10px;
+} */
+
+/* .search-area button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+} */
+
+.auth-buttons button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.cart_quantity {
+  background-color: red;
+  border-radius: 40%;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+/* Basic styling for the button group */
+.btn-group {
+  display: inline-flex;
+  position: relative;
+  background-color: #28a745;
+  border-radius: 5px;
+}
+
+/* Styling for the buttons */
+.btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  border-radius: 5px 0px 0px 5px;
+}
+.btn:hover {
+  background-color: #218838;
+}
+/* Dropdown arrow button styling */
+.dropdown-toggle {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #28a745;
+  border-left: none;
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: white;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.681);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 190px;
+}
+
+/* Display the dropdown when the toggle button is clicked */
+.dropdown-toggle:focus + .dropdown-menu,
+.dropdown-menu:hover {
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+  padding: 8px 15px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* .dropdown-item:hover {
+  background-color: black;
+  border-radius: 2px;
+} */
+.dropdownPreFocusItem {
+  background-color: black;
+  border-radius: 4px;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+/* .search-dropdown {
+  padding: 6px 0px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+  background-color: #e4e4e4;
+  cursor: pointer;
+}
+
+.search-dropdown:hover {
+  background-color: #d7d7d7;
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  position: relative;
+}
+
+.search-dropdown:focus {
+  outline: 4px solid #ca932df1;
+  z-index: 20;
+}
+
+.search-area:has(input:focus) {
+  outline: 4px solid rgba(202, 147, 45, 0.947); 
+}
+
+.search-area button:focus{
+  outline: 4px solid #ca932df1;
+}
+
+.search-area input {
+  padding: 6.1px 0px;
+  border: none;
+  flex: 1; 
+  outline: none; 
+}
+
+.search-area button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 7.5px 10px;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+} */
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+/* Basic styling for the button group */
+.custom-btn-group {
+  display: inline-flex;
+  position: relative;
+  background-color: #28a745;
+  border-radius: 5px 0px 0px 5px;
+}
+
+/* Styling for the buttons */
+.custom-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.custom-btn-display{
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: default;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.custom-btn:hover {
+  background-color: #218838;
+}
+
+/* Dropdown arrow button styling */
+.custom-dropdown-toggle {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #28a745;
+  border-left: none;
+  position: relative;
+}
+
+.custom-dropdown-toggle::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: white;
+}
+
+/* Dropdown menu styling */
+.custom-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  /* margin-top: 5px; */
+  background-color: rgba(0, 0, 0, 0.681);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 190px;
+}
+
+/* Display the dropdown when the toggle button is clicked */
+.custom-dropdown-toggle:focus + .custom-dropdown-menu,
+.custom-dropdown-menu:hover {
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+
+/* Dropdown item styling */
+.custom-dropdown-item {
+  padding: 8px 15px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.custom-dropdown-item:hover {  
+background-color: #ccc;
+color: #333;
+}
+
+.custom-dropdown-pre-focus-item {
+  background-color: black;
+  border-radius: 4px;
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+.search-area{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.search-area .custom-btn-group {
+  flex: 3;
+}
+
+.search-icon .search{
+  flex: 2;
+}
+
+.search-icon{
+  background-color: rgb(164, 205, 0);
+  border-radius: 0px 5px 5px 0px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.search-icon img{
+  width: 25px;
+}
